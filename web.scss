@@ -1,0 +1,33 @@
+$color1: rgb(182, 139, 0);
+$color2: rgb(247, 237, 96);
+$width1: 100VW;
+$align: center;
+header{
+    background-color: $color1;
+    width: $width1;
+    height: 15vh;
+    display: flex;
+    justify-content: $align;
+    align-items: $align;
+    }
+main{
+    background-color: $color2;
+    width: $width1;
+    height: 85vh;
+    }
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+img{
+    width: 50vw;
+    margin: 0px;
+    }
+main{
+    display: flex;
+    }
+h1{
+    color:$color2 ;
+    font-size: 50px;
+    font-family: sans-serif;
+    }
